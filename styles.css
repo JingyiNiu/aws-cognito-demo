@@ -1,0 +1,9 @@
+.maxw-500 {
+  max-width: 500px;
+}
+.maxw-800 {
+  max-width: 800px;
+}
+.capitalize {
+  text-transform: capitalize;
+}
