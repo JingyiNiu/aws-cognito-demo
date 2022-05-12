@@ -14,7 +14,7 @@
       <div class="d-flex justify-content-center">
         <div>
           <h1 class="capitalize">Third party signin using AWS cognito</h1>
-          <a href="https://www.youtube.com/watch?v=r1P_glQGvfo" class="d-block btn btn-primary my-5 capitalize" data-lity>watch tutorial video</a>
+          <a href="https://www.youtube.com/watch?v=r1P_glQGvfo" class="d-block btn btn-info text-white my-5 capitalize" data-lity>watch tutorial video</a>
           <h4>Steps</h4>
           <h5 class="capitalize">1. create a user pool</h5>
           <img src="/assets/images/sc-1.png" alt="" class="maxw-800 d-block mb-4"/>
@@ -24,6 +24,16 @@
           <img src="/assets/images/sc-3.png" alt="" class="maxw-800 d-block mb-4"/>
           <h5 class="capitalize">3. create a domain</h5>
           <img src="/assets/images/sc-5.png" alt="" class="maxw-800 d-block mb-4"/>
+          <h5 class="capitalize">4. set up a google project</h5>
+          <p class="ms-3">a. head to <a href="https://console.cloud.google.com/" target="_blank" class="link-info">google developer console</a> and create a project</p>
+          <p class="ms-3">b. set up your OAuth consent screen</p>
+          <img src="/assets/images/sc-6.png" alt="" class="maxw-800 d-block mb-4"/>
+          <p class="ms-3">c. create an OAuth credential and get your client id as well as client secret</p>
+          <img src="/assets/images/sc-7.png" alt="" class="maxw-800 d-block mb-4"/>
+          <h5 class="capitalize">5. link aws with google</h5>
+          <p class="ms-3">a. create a new identify provider and paste your google client id/secret</p>
+          <img src="/assets/images/sc-8.png" alt="" class="maxw-800 d-block mb-4"/>
+          <p class="ms-3">b. head to your app client, edit hosted ui and add google to your identity provider</p>
         </div>
       </div>
     </div>
